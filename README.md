@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Definitive-AI-Testing/agents-streamlit/master/.streamlit/Logo.png" height="150" />
+<img src="https://raw.githubusercontent.com/Definitive-AI-Testing/agents-streamlit/master/.streamlit/Logo.png" height="150" style="display:block; margin-left:auto; margin-right:auto; />
 
 # Definitive AI: Open Source Contributions
 
@@ -77,6 +77,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions and support, please open an issue in the GitHub repository or contact [mail@de.com].
+For questions and support, please open an issue in the GitHub repository.
 
 For information about our full suite of AI agent development tools, including the web-based Agent Generator, please visit [www.definitive-ai.com](https://www.definitive-ai.com).
