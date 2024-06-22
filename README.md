@@ -1,32 +1,80 @@
-# Definitive AI User Guide
+# Definitive AI: Open Source Contributions
 
-## Introduction
-Definitive AI is a revolutionary developer tool that leverages the power of GPT to automate the creation of AI agents. As a developer, you can now rapidly generate sophisticated AI agent code by simply providing process documentation or participating in a structured interview. Definitive AI streamlines the entire development process, from requirements extraction to code generation, enabling you to focus on integration and customization rather than starting from scratch.
+## Overview
 
-### Why Definitive AI?
-Developing AI agents has traditionally been a complex and time-consuming process, even for experienced developers. Translating business requirements into functional agent architectures often requires significant effort and expertise in various AI concepts. Definitive AI addresses these challenges by automating key aspects of AI agent development:
+This repository contains open-source contributions to the Definitive AI project, a cutting-edge tool for automating AI agent development. Our goal is to enhance and extend the capabilities of AI agent frameworks, particularly Langchain, with new agent types, selection algorithms, and other useful additions.
 
-- **Automated Code Generation**: Definitive AI analyzes your input and generates complete, ready-to-use code for AI agents, including task definitions, agent types, tool integrations, and decision-making logic.
+These open-source components complement the full Definitive AI suite, which includes a powerful web-based AI Agent Generator. Visit our [main website](https://www.definitive-ai.com) to learn more about our complete offering.
 
-- **Comprehensive Agent Architecture**: The generated agents include essential components such as:
-  - Tasks: Clearly defined objectives and actions for the agent
-  - Agent Types: Tailored agent architectures based on specific use cases
-  - Tools: Integration with relevant APIs, databases, and external services
-  - Context/Memory: Efficient handling of conversation history and relevant information
-  - Inputs/Outputs: Well-defined interfaces for data flow
-  - System Prompts: Optimized prompts to guide agent behavior
-  - Triggers: Event-based activation of agent actions
-  - Decisions: Logical frameworks for agent decision-making
-  - Human Input: Seamless integration of human oversight and intervention
+## Key Features
 
-- **Rapid Prototyping**: Quickly generate functional AI agent prototypes, allowing for faster iteration and experimentation with different agent designs.
+### 1. New Agent Types
 
-- **Best Practices Implementation**: Automatically incorporate industry best practices and design patterns in AI agent development, ensuring high-quality, maintainable code.
+We've developed and implemented several new agent types to expand the versatility of AI agents. These include:
 
-- **Customization Flexibility**: While Definitive AI generates the core agent code, you retain full control to customize and extend the agents to meet specific requirements.
+- [Brief description of new agent type 1]
+- [Brief description of new agent type 2]
+- [Add more as needed]
 
-- **Reduced Development Time**: Significantly cut down on development time by automating the initial coding phase, allowing you to focus on fine-tuning and integration.
+### 2. Agent Selection Algorithm
 
-- **Consistent Architecture**: Ensure consistency across multiple AI agents in your project, making maintenance and scaling easier.
+Our innovative algorithm helps in selecting the most appropriate agent for different situations, optimizing performance and efficiency. Key features include:
 
-By leveraging Definitive AI, you can dramatically accelerate your AI agent development workflow, tackle more complex agent designs, and focus your efforts on creating unique value through customization and integration within your broader application ecosystem.
+- Context-aware selection
+- Performance-based optimization
+- Adaptive learning capabilities
+
+### 3. Langchain Enhancements
+
+We've contributed several improvements and additions to the Langchain framework:
+
+- [Brief description of enhancement 1]
+- [Brief description of enhancement 2]
+- [Add more as needed]
+
+## Connection to Definitive AI Agent Generator
+
+The components in this repository are designed to work seamlessly with the Definitive AI Agent Generator, our web-based tool for rapid AI agent development. While the Agent Generator offers a user-friendly interface for creating AI agents from process documentation or interviews, this open-source library provides additional functionalities and customizations for developers who want to extend their agents or integrate them into more complex systems.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- Langchain
+- [Any other dependencies]
+
+### Installation
+
+Install Definitive AI from PyPI:
+
+```
+pip install definitive-ai
+```
+
+### Usage
+
+[Provide basic usage instructions or link to more detailed documentation]
+
+## Contributing
+
+We welcome contributions from the community! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and suggest improvements.
+
+## Documentation
+
+For more detailed information about each component and how to use them, please refer to our [Wiki](link-to-wiki).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- The Langchain community
+- [Any other acknowledgments]
+
+## Contact
+
+For questions and support, please open an issue in the GitHub repository or contact [mail@de.com].
+
+For information about our full suite of AI agent development tools, including the web-based Agent Generator, please visit [www.definitive-ai.com](https://www.definitive-ai.com).
