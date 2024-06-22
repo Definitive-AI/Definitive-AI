@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/Definitive-AI-Testing/agents-streamlit/master/.streamlit/Logo.png" height="150" />
+
 # Definitive AI: Open Source Contributions
 
 ## Overview
