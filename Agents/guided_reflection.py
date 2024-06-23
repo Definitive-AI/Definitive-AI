@@ -89,15 +89,6 @@ def create_iterative_list_reflection_agent(llm: BaseChatModel, prompt: str, msgs
             with Pool(len(self.msgs)) as pool: # Adjust the number of processes as needed
                 output = pool.map(generate_response, self.msgs)
             return output
-    
-
-        # def invoke2(self, query: str) -> List[str]:
-        #     output = []
-
-        #     for msg in self.msgs:
-        #         output_response = self.llm._generate([self.prompt, HumanMessage(content=msg)])                
-        #         output.append(output_response.generations[0].text)
-        #     return output
 
         async def arun(self, query: str) -> str:
             return self.run(query)
@@ -118,18 +109,6 @@ def create_iterative_tuple_list_reflection_agent(llm: BaseChatModel, prompt: str
                 output_response = self.llm._generate([self.prompt, HumanMessage(content=query + "\n\n" + str(q + "\n" + msg))])                
                 output.append((q,output_response.generations[0].text))
             return output
-        
-        
-        # def invoke(self, query: str) -> List[tuple[str, str]]:
-        #     def generate_response(msg):
-        #         # This function will be executed in parallel for each message
-        #         output_response = self.llm._generate([self.prompt, HumanMessage(content=query + "\n\n" + str(q + "\n" + msg))])
-        #         return output_response.generations[0].text
-
-        #     # Use Pool to run generate_response in parallel for each message
-        #     with Pool(len(self.msgs)) as pool: # Adjust the number of processes as needed
-        #         output = pool.map(generate_response, self.msgs)
-        #     return output
 
         async def arun(self, query: str) -> str:
             return self.run(query)
