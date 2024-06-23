@@ -13,29 +13,25 @@ These open-source components complement the full Definitive AI suite, which incl
 
 ## Key Features
 
-### 1. New Agent Types
+### 1. Agent Implimentations
 
-We've developed and implemented several new agent types to expand the versatility of AI agents. These include:
+We've implemented several agent types to expand the versatility of AI agents. These include:
 
-- [Brief description of new agent type 1]
-- [Brief description of new agent type 2]
-- [Add more as needed]
+- Reflection
+- Reflextion
+- Guided/Loaded Reflection
 
-### 2. Agent Selection Algorithm
+### 2. Agent Selection 
 
-Our innovative algorithm helps in selecting the most appropriate agent for different situations, optimizing performance and efficiency. Key features include:
-
-- Context-aware selection
-- Performance-based optimization
-- Adaptive learning capabilities
+Our agent reference research helps in selecting the most appropriate agent for different situations, optimizing performance and efficiency. 
 
 ### 3. Langchain Enhancements
 
 We've contributed several improvements and additions to the Langchain framework:
 
-- [Brief description of enhancement 1]
-- [Brief description of enhancement 2]
-- [Add more as needed]
+- Streamlit handler
+- Streamlit HumanInput Tool
+- ReAct prompt template with System Prompt inputs
 
 ## Connection to Definitive AI Agent Generator
 
