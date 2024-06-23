@@ -19,7 +19,7 @@ We've implemented several agent types to expand the versatility of AI agents. Th
 
 - Reflection
 - Reflextion
-- Guided/Loaded Reflection
+- Chain of Reflection
 
 ### 2. Agent Selection 
 
