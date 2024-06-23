@@ -8,7 +8,8 @@
 
 This repository contains open-source contributions to the Definitive AI project, a cutting-edge tool for automating AI agent development. Our goal is to enhance and extend the capabilities of AI agent frameworks, particularly Langchain, with new agent types, selection algorithms, and other useful additions.
 
-These open-source components complement the full Definitive AI suite, which includes a powerful web-based AI Agent Generator. Visit our [main website](https://www.definitive-ai.com) to learn more about our complete offering.
+These open-source components complement the full Definitive AI suite, which includes a powerful web-based AI Agent Generator. Visit our [main website](https://www.definitive-ai.com) to learn more about our complete offering, or check out our [Beta](https://definitive-ai.streamlit.app/).
+
 
 ## Key Features
 
